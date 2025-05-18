@@ -23,15 +23,16 @@ body {
 }
 
 .logo {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  font-size: 24px;
-  color: #f74dbc;
-  /* bright neon green */
-  text-shadow: 0 0 3px #144bff, 0 0 3px #ecf6ea, 0 0 3px #e7f5e5;
-
+  font-size: 10px;
+  color: #ff14ad;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 0 0 5px #ff14ad, 0 0 10px #ff14ad, 0 0 20px #ff14ad;
 }
+
+
+
+
 
 
 
@@ -143,7 +144,7 @@ body {
   text-align: center;
 
   /* match logo glow */
-  text-shadow: 0 0 5px #144bff, 0 0 10px #ecf6ea, 0 0 20px #39ff14;
+  text-shadow: 0 0 2px #144bff, 0 0 4px #ecf6ea, 0 0 100px #39ff14;
 }
 
 .navbar a:hover {
@@ -172,10 +173,10 @@ body {
 
 /* Logo */
 .logo {
-  font-size: 2rem;
+  font-size: 18px;
   font-weight: bold;
-  color: #d65a84;
-  padding: 20px;
+  color: #f2ecee;
+  padding: 40px;
   text-transform: uppercase;
   float: left;
 }
@@ -238,7 +239,7 @@ body::after {
   float: none;
   text-align: center;
   padding-bottom: 30px;
-  color: #d65a84;
+  color: #f9f3f5;
 }
 
 /* Responsive (optional) */
