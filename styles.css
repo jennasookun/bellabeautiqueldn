@@ -1,6 +1,54 @@
 /* Base Styles */
 html,
 body {
+
+
+
+  /* Hamburger menu styles */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 110;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 25px;
+  background: #ff14ad;
+  margin: 4px 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    gap: 15px;
+    z-index: 100;
+  }
+
+  .navbar ul.active {
+    display: flex;
+  }
+}
+
+/* Keep existing styles below */
+
   margin: 0;
   padding: 0;
   height: 100%;
